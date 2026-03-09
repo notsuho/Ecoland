@@ -5,18 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/LoadingScreen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Intro1Screen.unity
-    guid: b152705e772dd6048be860c88a7b93e0
   - enabled: 1
     path: Assets/Scenes/WelcomeScreen.unity
     guid: d5a1f7dab5f612c40a8622450463515a
   - enabled: 1
+    path: Assets/Scenes/Intro1Screen.unity
+    guid: b152705e772dd6048be860c88a7b93e0
+  - enabled: 1
     path: Assets/Scenes/Intro2Screen.unity
     guid: 5af6fe0a6367d3f4b837d6b0a4655ab9
+  - enabled: 1
+    path: Assets/Scenes/PlayerInfoScreen.unity
+    guid: a42922f3787487e42b4441a2b436043a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
