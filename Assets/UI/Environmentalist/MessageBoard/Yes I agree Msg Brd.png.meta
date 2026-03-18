@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 27f7b91377b258f45b04222f2b0c515c
+guid: 4a2beab569cd5aa4ab3b672d7fa90009
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5944803955221011191
-    second: Security Officer_0
-  - first:
-      213: -3022224233661086725
-    second: Security Officer_1
+      213: 1698685908652134689
+    second: Yes I agree Msg Brd_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Security Officer_0
+      name: Yes I agree Msg Brd_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 18
-        width: 108
-        height: 21
+        x: 1
+        y: 3
+        width: 299
+        height: 132
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 905e6b5bc40df7da0800000000000000
-      internalID: -5944803955221011191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Security Officer_1
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 0
-        width: 57
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bf3cd096217ee06d0800000000000000
-      internalID: -3022224233661086725
+      spriteID: 1211c2a75d1f29710800000000000000
+      internalID: 1698685908652134689
       vertices: []
       indices: 
       edges: []
@@ -163,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Security Officer_0: -5944803955221011191
-      Security Officer_1: -3022224233661086725
+      Yes I agree Msg Brd_0: 1698685908652134689
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
