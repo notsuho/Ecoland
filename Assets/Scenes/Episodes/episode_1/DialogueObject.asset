@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c72c9706ba29a9d428084a4a0a43db7f, type: 3}
+  m_Name: DialogueObject
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - 'As you can see the damage is quite extensive.
+
+
+    All the more reason to find
+    the fool behind this mess. If you give me the go-ahead I can expand the search
+    to the whole network.
+
+
+    <i>Sounds of splashing may be heard as Rivera runs
+    up to you and Parker looking mortified about the state of the sewer.</i>'
+  - "Oh This is terrible!!! This is doing irreversible damage to the water system!\n
+    \nAdvisor! We need to get to removing this toxic goop immediately. The waste
+    will contaminate the water system if we do not act immediatelly!"
+  - line 3
