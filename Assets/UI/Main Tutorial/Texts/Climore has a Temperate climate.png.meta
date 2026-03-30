@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: ebc2b4703c2b7d74394b8838c9153d03
+guid: e5a4c636f92df4143826b9d935f36fe4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 73940271555686375
-    second: Top bar_0
+      213: 5853391359390920665
+    second: Climore has a Temperate climate_0
+  - first:
+      213: -6111692374800003494
+    second: Climore has a Temperate climate_1
+  - first:
+      213: 4615367689291337871
+    second: Climore has a Temperate climate_2
+  - first:
+      213: 2681212761431865259
+    second: Climore has a Temperate climate_3
+  - first:
+      213: -8578183888006749180
+    second: Climore has a Temperate climate_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Top bar_0
+      name: Climore has a Temperate climate_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 956
-        height: 87
+        y: 14
+        width: 40
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ef2ca40940b60100800000000000000
-      internalID: 73940271555686375
+      spriteID: 9df26d3cd6c6b3150800000000000000
+      internalID: 5853391359390920665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climore has a Temperate climate_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 14
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e059f8a28ee2ba0800000000000000
+      internalID: -6111692374800003494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climore has a Temperate climate_2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 15
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80960cc5741d0040800000000000000
+      internalID: 4615367689291337871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climore has a Temperate climate_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 53
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7f3640dc4953520800000000000000
+      internalID: 2681212761431865259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Climore has a Temperate climate_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404e069f33b24f880800000000000000
+      internalID: -8578183888006749180
       vertices: []
       indices: 
       edges: []
@@ -138,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Top bar_0: 73940271555686375
+      Climore has a Temperate climate_0: 5853391359390920665
+      Climore has a Temperate climate_1: -6111692374800003494
+      Climore has a Temperate climate_2: 4615367689291337871
+      Climore has a Temperate climate_3: 2681212761431865259
+      Climore has a Temperate climate_4: -8578183888006749180
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
