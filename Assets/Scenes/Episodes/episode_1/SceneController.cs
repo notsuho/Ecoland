@@ -1,5 +1,7 @@
 using TMPro;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SceneController : MonoBehaviour
@@ -7,18 +9,10 @@ public class SceneController : MonoBehaviour
 
     public GameObject rightPortrait;
     public GameObject leftPortrait;
-    public GameObject dialogueBox;
-    public GameObject choiceBox; //For storyline branching
-    public DialogueObject lines;
-    public int lineNumber = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //Get the dialogueobject first line and display it in dialoguebox
-        TextMeshProUGUI text = dialogueBox.GetComponentInChildren<TextMeshProUGUI>();
-        text.text = lines.dialogue[0].ToString();
-        lineNumber++;
 
     }
 
@@ -28,25 +22,41 @@ public class SceneController : MonoBehaviour
         
     }
 
-    public void NextLine()
-    {
-        //Called by the dialoguebox continue button on click
-        //Updates dialoguebox dialog field with the next line
-        //If there are no more lines, does nothing (for now)
-        if (lineNumber < lines.dialogue.Length)
-        {
-        TextMeshProUGUI text = dialogueBox.GetComponentInChildren<TextMeshProUGUI>();
-        text.text = lines.dialogue[lineNumber];
-        lineNumber++;
-        }
-        else
-        {
-            return;
-        }
-    }
-
     public void ToggleVisibility()
     {
         //WIP for toggling visibility of NPC avatars
+        if (rightPortrait.activeSelf && leftPortrait.activeSelf)
+        {
+            rightPortrait.SetActive(false);
+            leftPortrait.SetActive(false);
+        }
+        else
+        {
+            rightPortrait.SetActive(true);
+            leftPortrait.SetActive(true);
+        }
+        
+    }
+
+    public void LoadBranch(GameObject button)
+    {
+        //Called by the on click method attached to the branch choice buttons.
+        //Receives as argument which button was pressed, so we can then
+        //decide which next story branch scene to load based on the choice.
+        Debug.Log(button.name.ToString() + " was pressed.");
+
+        switch (button.name.ToString())
+        {
+            case "Left Choice":
+            SceneManager.LoadScene("episode_1_choice_1");
+            break;
+            case "Right Choice":
+            SceneManager.LoadScene("episode_1_choice_2");
+            break;
+            default:
+            Debug.Log("Default choice, nothing will happen.");
+            break;
+        }
+
     }
 }

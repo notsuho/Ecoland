@@ -7,7 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/LoadingScreen.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 7dad79d0209ffa94293d746034795389
   - enabled: 1
     path: Assets/Scenes/WelcomeScreen.unity
     guid: d5a1f7dab5f612c40a8622450463515a
@@ -29,6 +29,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minigames/Econews/EconewsListing.unity
     guid: 73fd37437876450488b7c0b6771e9e4a
+  - enabled: 1
+    path: Assets/Scenes/Episodes/episode_1/episode_1_scene.unity
+    guid: 45a3e3ebb017e694083ffa6f8878b001
+  - enabled: 1
+    path: Assets/Scenes/Episodes/episode_1/episode_1_choice_1.unity
+    guid: f97484c4812ed794d8072b3471eee5cc
+  - enabled: 1
+    path: Assets/Scenes/Episodes/episode_1/episode_1_choice_2.unity
+    guid: 16463d63b5f146b41950820a1d6c9978
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0

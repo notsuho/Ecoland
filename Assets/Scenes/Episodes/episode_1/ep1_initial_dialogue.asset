@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c72c9706ba29a9d428084a4a0a43db7f, type: 3}
-  m_Name: DialogueObject
+  m_Name: ep1_initial_dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
   dialogue:
   - 'As you can see the damage is quite extensive.

@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: asdf
+  m_text: Choice 2 was made
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -819,54 +819,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831826458}
   m_CullTransparentMesh: 1
---- !u!1 &852430178
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 852430180}
-  - component: {fileID: 852430179}
-  m_Layer: 0
-  m_Name: DialogueController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &852430179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 852430178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3088cc16cbfeb941aa6b64d9315a758, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DialogueController
-  dialogueBox: {fileID: 330479751}
-  choiceBox: {fileID: 1007599315}
-  lines: {fileID: 11400000, guid: 72a0383aa8ae6994b83ff6a6747ca1ca, type: 2}
-  lineNumber: 0
---- !u!4 &852430180
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 852430178}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1036.0775, y: 570.30615, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1007599315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,6 +989,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1261548003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1261548005}
+  - component: {fileID: 1261548004}
+  m_Layer: 0
+  m_Name: DialogueController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1261548004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261548003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3088cc16cbfeb941aa6b64d9315a758, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueController
+  dialogueBox: {fileID: 0}
+  choiceBox: {fileID: 0}
+  lines: {fileID: 0}
+  lineNumber: 0
+--- !u!4 &1261548005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261548003}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1036.0775, y: 570.30615, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1328917372
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,19 +1118,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1328917375}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1418683603}
-        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
-        m_MethodName: ToggleVisibility
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1328917375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1251,19 +1239,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1376203131}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1418683603}
-        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
-        m_MethodName: LoadBranch
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1376203128}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1376203131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1348,6 +1324,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SceneController
   rightPortrait: {fileID: 831826458}
   leftPortrait: {fileID: 1528098261}
+  dialogueBox: {fileID: 330479751}
+  choiceBox: {fileID: 1007599315}
+  lines: {fileID: 0}
+  lineNumber: 0
 --- !u!1 &1423825790
 GameObject:
   m_ObjectHideFlags: 0
@@ -2038,8 +2018,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 852430179}
-        m_TargetAssemblyTypeName: DialogueController, Assembly-CSharp
+      - m_Target: {fileID: 1418683603}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: NextLine
         m_Mode: 1
         m_Arguments:
@@ -2199,19 +2179,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2136261124}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1418683603}
-        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
-        m_MethodName: LoadBranch
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2136261121}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2136261124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2258,4 +2226,4 @@ SceneRoots:
   - {fileID: 1506119633}
   - {fileID: 1637872766}
   - {fileID: 1418683602}
-  - {fileID: 852430180}
+  - {fileID: 1261548005}
