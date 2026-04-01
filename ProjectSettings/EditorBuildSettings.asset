@@ -56,6 +56,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial Challenge Screen 2.unity
     guid: 21b6f2b234cd72a4e9010c2d865b36fb
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Challenge Screen 3.unity
+    guid: 4221a6e3b9f3f65439cb1e749a9e838e
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Challenge Screen 4.unity
+    guid: 8cc413dccd8f7ad45bb9112733913bcd
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Challenge Screen 5.unity
+    guid: cffc3342c495d31478736a21493f239c
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Challenge Screen 6.unity
+    guid: 86988901075051f4c8178cf8f98944e6
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Challenge Complete Screen.unity
+    guid: 3ba66f8cffece3f429da9e83543d7270
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
