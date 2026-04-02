@@ -71,6 +71,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial Challenge Complete Screen.unity
     guid: 3ba66f8cffece3f429da9e83543d7270
+  - enabled: 1
+    path: Assets/Scenes/Minigame Start Screen.unity
+    guid: 2ac0c6b51ef45ff4486c9d2032c277c1
+  - enabled: 1
+    path: Assets/Scenes/Minigames Screen.unity
+    guid: da8432277192f7143807b5b683349ad4
+  - enabled: 1
+    path: Assets/Scenes/Settings Screen 1.unity
+    guid: 300751543e1f1c444acf6adfea0c72dd
+  - enabled: 1
+    path: Assets/Scenes/Main Menu Screen.unity
+    guid: 3eb26c8f51ebdf44cbf8b1f87f5b7645
+  - enabled: 1
+    path: Assets/Scenes/Tutorial Complete Screen.unity
+    guid: cb06115fa211fe7448f9447fb81d6f9b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
