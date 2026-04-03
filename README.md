@@ -27,11 +27,12 @@ Functional AI agent as game character;
 Functional database;
 Research datasets on human-AI interactions,
 Gameplay recordings and analyses
-References
 
-Lakoff, G. (2010). Why it matters how we frame the environment. Environmental Communication, 4(1), 70-81.
-Lorenzoni, I., Nicholson-Cole, S., Whitmarsh, L.: Barriers perceived to engaging with climate change among the UK pub- lic and their policy implications. Global Environmental Change, 17(3-4), 445-459. (2007)
-Rajanen, D. (2021) Interactive and participatory media for public engagement with climate change: A systematic litera- ture review and an integrative model. INTERACT No 5, November 2021. University of Oulu, Finland
-Paulos, E., Foth, M., Satchell, C., Kim, Y., Dourish, P., & Choi, H. J. (2008). Ubiquitous sustainability: Citizen science and activism. Workshop at the 10th Int’l Conf. on Ubiquitous Computing (UbiComp 2008), 2008, Seoul, South Korea. ACM.
-Reeve, J., & Tseng, C. M. (2011). Agency as a fourth aspect of students’ engagement during learning activities. Contem- porary Educational Psychology, 36(4), 257-267.
+### References
+
+1. Lakoff, G. (2010). Why it matters how we frame the environment. Environmental Communication, 4(1), 70-81.
+2. Lorenzoni, I., Nicholson-Cole, S., Whitmarsh, L.: Barriers perceived to engaging with climate change among the UK pub- lic and their policy implications. Global Environmental Change, 17(3-4), 445-459. (2007)
+3. Rajanen, D. (2021) Interactive and participatory media for public engagement with climate change: A systematic litera- ture review and an integrative model. INTERACT No 5, November 2021. University of Oulu, Finland
+4. Paulos, E., Foth, M., Satchell, C., Kim, Y., Dourish, P., & Choi, H. J. (2008). Ubiquitous sustainability: Citizen science and activism. Workshop at the 10th Int’l Conf. on Ubiquitous Computing (UbiComp 2008), 2008, Seoul, South Korea. ACM.
+5. Reeve, J., & Tseng, C. M. (2011). Agency as a fourth aspect of students’ engagement during learning activities. Contem- porary Educational Psychology, 36(4), 257-267.
 
