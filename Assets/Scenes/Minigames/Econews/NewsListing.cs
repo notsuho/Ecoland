@@ -41,6 +41,6 @@ public class NewsListing : MonoBehaviour
         SelectedNews.current = news;
         //Load article scene with chosen article
         //NAME MUST MATCH EXACT SCENE NAME
-        SceneManager.LoadScene("EconewsArticleView");
+        SceneManager.LoadScene("EconewsArticleView1");
     }
 }
