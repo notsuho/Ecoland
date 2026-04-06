@@ -10,6 +10,12 @@ public class SceneNavigator : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+    public void OpenSceneWithReturn(string sceneName)
+    {
+        previousSceneName = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(sceneName);
+    }
+
     public void OpenQuitOverlay()
     {
         previousSceneName = SceneManager.GetActiveScene().name;
