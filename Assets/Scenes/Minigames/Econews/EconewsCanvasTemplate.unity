@@ -436,6 +436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GrowthManager
   progressBarImage: {fileID: 1842996955}
+  chestButton: {fileID: 1354106571}
   progressBarSprites:
   - {fileID: 8296321661011551385, guid: a9fcd4a10e6d23c40ae37df04807ba17, type: 3}
   - {fileID: 8065333353092106497, guid: e807e263048384440b90b8edc2f5ba6a, type: 3}
@@ -443,6 +444,11 @@ MonoBehaviour:
   - {fileID: 8560312427044637193, guid: abf73a25693f58f4cae023b5182f789c, type: 3}
   - {fileID: 7671363039543019253, guid: dc73a09422fa87b4d894fe25894b3e93, type: 3}
   - {fileID: -8380665574610907176, guid: cdd5a5da300dc6a4abbf70978f0aface, type: 3}
+  roryImage: {fileID: 0}
+  roryLifeStageDatabase: {fileID: 11400000, guid: 23d25adb575b0e44c898eff5fa6c6326, type: 2}
+  currentStage: {fileID: 1302160726}
+  nextStage: {fileID: 1893588550}
+  testValue: 0
 --- !u!4 &296098599
 Transform:
   m_ObjectHideFlags: 0
@@ -1007,7 +1013,7 @@ GameObject:
   - component: {fileID: 1302160727}
   - component: {fileID: 1302160726}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: CurrentStageText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1145,7 +1151,7 @@ GameObject:
   - component: {fileID: 1354106572}
   - component: {fileID: 1354106571}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ChestButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1195,7 +1201,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.627451}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1812,7 +1818,7 @@ GameObject:
   - component: {fileID: 1893588551}
   - component: {fileID: 1893588550}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: NextStageText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
