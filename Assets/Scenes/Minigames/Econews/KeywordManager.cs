@@ -5,7 +5,7 @@ using TMPro;
 
 public class KeywordManager : MonoBehaviour
 {
-    public GameObject keywordButtonPrefab;    // your prefab
+    public GameObject keywordButtonPrefab;
     public Transform contentParent;    // GridLayoutGroup Content
     //light green
     public Color unselectedColor = new Color32(145, 215, 160, 255);
@@ -48,15 +48,15 @@ public class KeywordManager : MonoBehaviour
         {
             GameObject buttonObject = Instantiate(keywordButtonPrefab, contentParent);
 
-            // Set the text
+            //setting text
             TextMeshProUGUI label = buttonObject.GetComponentInChildren<TextMeshProUGUI>();
             if (label != null)
                 label.text = keyword.keyword;
 
-            // Get button image for color change
+            //getting button image for color change
             Image background = buttonObject.GetComponent<Image>();
 
-            // Add click listener
+            //adding click listener
             Button button = buttonObject.GetComponent<Button>();
             button.onClick.AddListener(() => OnKeywordClicked(keyword, background));
         }

@@ -8,7 +8,7 @@ public class NewsListing : MonoBehaviour
 {
     //ScrollView Content
     public Transform contentParent;
-    // Button prefab
+    //Button prefab
     public GameObject buttonPrefab;
 
     /*Displays news in UI as a button list*/

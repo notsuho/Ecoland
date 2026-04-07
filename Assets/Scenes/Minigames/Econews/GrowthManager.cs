@@ -9,7 +9,7 @@ public class GrowthManager : MonoBehaviour
     public Button chestButton;
 
     [Header("Progress Bar Sprites (0 → 5)")]
-    public Sprite[] progressBarSprites; // Set size to 6 in Inspector
+    public Sprite[] progressBarSprites;
 
     //public RoryLifeStage[] lifeStages;
     public Image roryImage;
@@ -27,7 +27,6 @@ public class GrowthManager : MonoBehaviour
 
     public void UpdateProgress(int completedNews)
     {
-        // Clamp value so it doesn't go out of bounds
         completedNews = Mathf.Clamp(completedNews, 0, progressBarSprites.Length - 1);
         GrowthData.currentProgress = completedNews;
         // Swap the sprite
