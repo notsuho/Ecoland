@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/BackstoryStartScreen.unity
     guid: 57907dea4339c5948b9a901a0363db97
   - enabled: 1
-    path: Assets/Scenes/Minigames/Econews/EconewsArticleView.unity
+    path: Assets/Scenes/Minigames/Econews/EconewsArticleViewFAILED.unity
     guid: 5c1af193caf51c646b3b518738c2f17d
   - enabled: 1
     path: Assets/Scenes/Minigames/Econews/EconewsListing.unity
@@ -38,8 +38,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minigames/Econews/MinigameMenu.unity
     guid: c0347fb2994cc70439972902689c9eee
-    path: Assets/Scenes/Minigames/Econews/AIStatsInfo.unity
-    guid: 7567ba28db127de438f65c1cf70cfc39
   - enabled: 1
     path: Assets/Scenes/Minigames/Econews/EconewsEndScreen.unity
     guid: fb4c2f8a275480c41aca20cd1adbdf4c
@@ -55,6 +53,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minigames/Econews/EconewsStatsMore.unity
     guid: 5adbd1dfbd6aabc4eaa0f8f6af53fb0c
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Econews/AIStatsInfo.unity
+    guid: 7567ba28db127de438f65c1cf70cfc39
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
