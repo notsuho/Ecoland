@@ -5,87 +5,30 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 1
+    path: Assets/Scenes/LoadingScreen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Loading Screen.unity
-    guid: 83e41e7b109a91945a4d88d9a3be9b06
-  - enabled: 1
-    path: Assets/Scenes/Welcome Screen.unity
+    path: Assets/Scenes/WelcomeScreen.unity
     guid: d5a1f7dab5f612c40a8622450463515a
   - enabled: 1
-    path: Assets/Scenes/Intro Screen 1.unity
+    path: Assets/Scenes/Intro1Screen.unity
     guid: b152705e772dd6048be860c88a7b93e0
   - enabled: 1
-    path: Assets/Scenes/Intro Screen 2.unity
+    path: Assets/Scenes/Intro2Screen.unity
     guid: 5af6fe0a6367d3f4b837d6b0a4655ab9
   - enabled: 1
-    path: Assets/Scenes/Player Info Screen.unity
+    path: Assets/Scenes/PlayerInfoScreen.unity
     guid: a42922f3787487e42b4441a2b436043a
   - enabled: 1
-    path: Assets/Scenes/Backstory Start Screen.unity
+    path: Assets/Scenes/BackstoryStartScreen.unity
     guid: 57907dea4339c5948b9a901a0363db97
   - enabled: 1
-    path: Assets/Scenes/Meeting Screen.unity
-    guid: a311140305496fe41ac2d83c7d01ed28
+    path: Assets/Scenes/Minigames/Econews/EconewsArticleView.unity
+    guid: 5c1af193caf51c646b3b518738c2f17d
   - enabled: 1
-    path: Assets/Scenes/Environmentalist Intro Screen.unity
-    guid: db85a9ee901c9fa4d84e0413c8d6debd
-  - enabled: 1
-    path: Assets/Scenes/Financial Officer Intro Screen.unity
-    guid: e47054cebfbd3244881ed834cb4c4686
-  - enabled: 1
-    path: Assets/Scenes/Security Chief Intro Screen.unity
-    guid: 8186a28bec6e4464b93d0db9338b3226
-  - enabled: 1
-    path: Assets/Scenes/People Screen.unity
-    guid: 4ca0a72cfaf713042b607e76a5e5de3b
-  - enabled: 1
-    path: Assets/Scenes/Tutorial Start Screen.unity
-    guid: 85ba9aae1e45f0042bd9d7e22ba815b5
-  - enabled: 1
-    path: Assets/Scenes/Tutorial Map Screen.unity
-    guid: 221084fecbe2641478ce82e078cf5ee3
-  - enabled: 1
-    path: Assets/Scenes/Tutorial Dashboard Screen.unity
-    guid: 48c8b099a7c85a3448a87d7576b60d55
-  - enabled: 1
-    path: Assets/Scenes/Tutorial Challenge Screen 1.unity
-    guid: 054e29450259f2342906046cefd9974a
-  - enabled: 1
-    path: Assets/Scenes/Tutorial Challenge Screen 2.unity
-    guid: 21b6f2b234cd72a4e9010c2d865b36fb
-  - enabled: 1
-    path: Assets/Scenes/Tutorial Challenge Screen 3.unity
-    guid: 4221a6e3b9f3f65439cb1e749a9e838e
-  - enabled: 1
-    path: Assets/Scenes/Tutorial Challenge Screen 4.unity
-    guid: 8cc413dccd8f7ad45bb9112733913bcd
-  - enabled: 1
-    path: Assets/Scenes/Tutorial Challenge Screen 5.unity
-    guid: cffc3342c495d31478736a21493f239c
-  - enabled: 1
-    path: Assets/Scenes/Tutorial Challenge Screen 6.unity
-    guid: 86988901075051f4c8178cf8f98944e6
-  - enabled: 1
-    path: Assets/Scenes/Tutorial Challenge Complete Screen.unity
-    guid: 3ba66f8cffece3f429da9e83543d7270
-  - enabled: 1
-    path: Assets/Scenes/Minigame Start Screen.unity
-    guid: 2ac0c6b51ef45ff4486c9d2032c277c1
-  - enabled: 1
-    path: Assets/Scenes/Minigames Screen.unity
-    guid: da8432277192f7143807b5b683349ad4
-  - enabled: 1
-    path: Assets/Scenes/Settings Screen 1.unity
-    guid: 300751543e1f1c444acf6adfea0c72dd
-  - enabled: 1
-    path: Assets/Scenes/Main Menu Screen.unity
-    guid: 3eb26c8f51ebdf44cbf8b1f87f5b7645
-  - enabled: 1
-    path: Assets/Scenes/Tutorial Complete Screen.unity
-    guid: cb06115fa211fe7448f9447fb81d6f9b
+    path: Assets/Scenes/Minigames/Econews/EconewsListing.unity
+    guid: 73fd37437876450488b7c0b6771e9e4a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
