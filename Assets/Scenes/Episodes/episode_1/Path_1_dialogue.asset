@@ -17,3 +17,11 @@ MonoBehaviour:
     law book at them. Do not worry Rivera, we will work as fast as possible.\n\nRivera:
     Aww man. I\u2019ll gather the cleanup crew and deploy them immediately as soon
     as Parker gives the green light."
+  - "Allocated 25 workers to Chief Parker\u2019s search team."
+  needtoggle: 0
+  left: {fileID: -2676150590196756978, guid: e13562525b57a104fa733a032085af2e, type: 3}
+  right: {fileID: -991691007868473749, guid: 83a5c206ca590cc41aa4dad245cddfa5, type: 3}
+  choices: []
+  nextNode: {fileID: 11400000, guid: 1b8a1280672e0e54f9b0f115beddd2ec, type: 2}
+  isChoice: 0
+  sceneToLoad: episode_1_aftermath_1

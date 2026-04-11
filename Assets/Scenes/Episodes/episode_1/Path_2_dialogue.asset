@@ -13,4 +13,15 @@ MonoBehaviour:
   m_Name: Path_2_dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
   dialogue:
-  - 
+  - "Rivera: Yes! Thank you Director. I\u2019ll get the best cleaners and do our
+    best.\n\nGood luck Parker! Sorry that we couldn\u2019t do both...\n\nParker:
+    I don\u2019t agree on this but will make one last sweep while the cleanup crew
+    arrives to do my best regardless."
+  - "Allocated 25 workers to Ecologist Rivera\u2019s cleanup team."
+  needtoggle: 0
+  left: {fileID: -2676150590196756978, guid: e13562525b57a104fa733a032085af2e, type: 3}
+  right: {fileID: -991691007868473749, guid: 83a5c206ca590cc41aa4dad245cddfa5, type: 3}
+  choices: []
+  nextNode: {fileID: 11400000, guid: 4a2df4ec0b5ffa34a98a2ab57c783e46, type: 2}
+  isChoice: 0
+  sceneToLoad: episode_1_aftermath_2
