@@ -900,7 +900,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: HourGlassRotation01WaterDamage
+          m_StringArgument: HourGlassRotation01WaterCleaning
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &147485346
@@ -1864,7 +1864,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Fine people for excess water usage
+  m_Text: Fine people for polluting lakes
 --- !u!222 &373021340
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2084,7 +2084,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Fix leaks and repair plumbing and drainage
+  m_Text: Clean water and improve drainage
 --- !u!222 &508237077
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2163,7 +2163,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Raise awareness campaign on less water consumption
+  m_Text: Raise awareness campaign on clean water
 --- !u!222 &508981715
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4029,7 +4029,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Saving water wastage is essential for a sustainable city
+  m_Text: Clean is essential for a sustainable city
 --- !u!222 &1087169200
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5777,7 +5777,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Make initial measures to reduce wastage, then focus on utilizing used water
+  m_Text: Make initial measures to reduce garbage, then focus on cleaning
 --- !u!222 &1582588128
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6402,7 +6402,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Fix leaks and repair plumbing and drainage
+  m_Text: Clean water and improve drainage
 --- !u!222 &1782056065
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7323,7 +7323,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Fine people for excess water usage
+  m_Text: Increase taxes for water cleaning
 --- !u!222 &1945555543
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7844,8 +7844,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Water is a human need. Providing uninturrepted celan water for consumption
-    and managing drainage is a responsibiltiy of the authority.
+  m_Text: Water bodies are integral part of a society. Clean lakes not only improves
+    the quality of creatures living there but also the city residents.
 --- !u!222 &2013086124
 CanvasRenderer:
   m_ObjectHideFlags: 0

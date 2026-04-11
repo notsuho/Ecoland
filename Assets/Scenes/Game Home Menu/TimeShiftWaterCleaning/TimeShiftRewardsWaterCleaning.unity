@@ -8931,8 +8931,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Thank You Advisor! For improving the city\u2019s plumbingh..\n\nYour efforts
-    will benefit Climore in the long run\n\n"
+  m_text: "Thank You Advisor! For improving the city\u2019s waterbodies..\n\nYour
+    efforts will benefit Climore in the long run"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
