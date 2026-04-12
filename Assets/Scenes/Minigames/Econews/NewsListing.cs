@@ -8,7 +8,7 @@ public class NewsListing : MonoBehaviour
 {
     //ScrollView Content
     public Transform contentParent;
-    // Button prefab
+    //Button prefab
     public GameObject buttonPrefab;
 
     /*Displays news in UI as a button list*/
@@ -41,6 +41,6 @@ public class NewsListing : MonoBehaviour
         SelectedNews.current = news;
         //Load article scene with chosen article
         //NAME MUST MATCH EXACT SCENE NAME
-        SceneManager.LoadScene("EconewsArticleView");
+        SceneManager.LoadScene("EconewsArticleView1");
     }
 }
