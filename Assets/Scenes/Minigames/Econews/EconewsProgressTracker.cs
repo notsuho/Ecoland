@@ -1,52 +1,41 @@
-using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class GrowthManager : MonoBehaviour
+public class EconewsProgressTracker : MonoBehaviour
 {
     [Header("UI Reference")]
     public Image progressBarImage; 
-    public Button chestButton;
-
     [Header("Progress Bar Sprites (0 → 5)")]
     public Sprite[] progressBarSprites;
 
     //public RoryLifeStage[] lifeStages;
-    //public Image roryImage;
+    public Image roryImage;
     public RoryLifeStage roryLifeStageDatabase;
     public TMP_Text currentStage;
     public TMP_Text nextStage;
+    public Button replayButton;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     void Start()
     {
-        chestButton.onClick.RemoveAllListeners();
-        chestButton.onClick.AddListener(OnChestClicked);
-
-        UpdateProgress(GrowthData.currentProgress);
-    }
-
-    void UpdateProgress(int completedNews)
-    {
-        completedNews = Mathf.Clamp(completedNews, 0, progressBarSprites.Length - 1);
-        GrowthData.currentProgress = completedNews;
-        // Swap the sprite
+        GrowthData.currentProgress++;
         UpdateProgressBarUI();
-        chestButton.interactable = GrowthData.RewardAvailable();
+        //UpdateRoryImageUI();
+        replayButton.onClick.RemoveAllListeners();
+        replayButton.onClick.AddListener(OnReplayClicked);
     }
 
-    void OnChestClicked()
+    void OnReplayClicked()
     {
         if (GrowthData.RewardAvailable())
         {
-            Debug.Log("Player got a reward!");
-
-            GrowthData.MilestoneHit(roryLifeStageDatabase.lifeStages.Count);
-
-            UpdateProgress(GrowthData.currentProgress);
+            SceneManager.LoadScene("MinigameMenu");
         }
         else
         {
-            return;
+            SceneManager.LoadScene("EconewsListing");
         }
     }
 
@@ -64,11 +53,11 @@ public class GrowthManager : MonoBehaviour
         else
             nextStage.text = "Fully Grown";
     }
-
-/*    public int testValue;
-
-    void Update()
+    void UpdateRoryImageUI()
     {
-        UpdateProgress(testValue);
-    }*/
+        // current stage
+        var current = roryLifeStageDatabase.lifeStages[GrowthData.roryLifestage];
+        roryImage.sprite = current.rorySprite;
+    }
+
 }

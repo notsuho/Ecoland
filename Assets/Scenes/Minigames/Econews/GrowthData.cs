@@ -6,9 +6,24 @@ public static class GrowthData
     public static int maxProgress = 5;
     public static int roryLifestage = 0;
 
-    public static bool RewardAvailable
+    /*public static bool RewardAvailable
     {
         get { return currentProgress >= maxProgress; }
+    }*/
+
+    public static bool RewardAvailable()
+    {
+        return currentProgress >= maxProgress;
+    }
+
+    public static int GetCurrentProgress()
+    {
+        return currentProgress;
+    }
+
+    public static int GetRoryLifeStage()
+    {
+        return roryLifestage;
     }
 
     public static void MilestoneHit(int maxStage)
