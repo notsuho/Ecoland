@@ -59,6 +59,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Home Menu/TimeShiftWaterCleaning/TimeShiftRewardsWaterCleaning.unity
     guid: 9eb85796c9673094bbd2de305399205d
+  - enabled: 1
+    path: Assets/Scenes/Game Home Menu/TimeShiftWaterDamage/TimeShiftRewardsWaterdamage.unity
+    guid: 30670953765a3b34b8fefa3d7840bceb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
