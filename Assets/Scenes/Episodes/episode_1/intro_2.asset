@@ -21,8 +21,9 @@ MonoBehaviour:
     come see for yourself, Advisor. "
   needtoggle: 0
   left: {fileID: -2676150590196756978, guid: e13562525b57a104fa733a032085af2e, type: 3}
-  right: {fileID: 0}
+  right: {fileID: -2676150590196756978, guid: e13562525b57a104fa733a032085af2e, type: 3}
   choices: []
   nextNode: {fileID: 11400000, guid: 72a0383aa8ae6994b83ff6a6747ca1ca, type: 2}
   isChoice: 0
+  isLast: 0
   sceneToLoad: episode_1_scene

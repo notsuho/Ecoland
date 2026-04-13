@@ -28,8 +28,9 @@ MonoBehaviour:
     please."
   needtoggle: 0
   left: {fileID: 2017643373582228962, guid: 7aaa2c07f7a6ee74b9826e98e4ff42d0, type: 3}
-  right: {fileID: 0}
+  right: {fileID: -2676150590196756978, guid: e13562525b57a104fa733a032085af2e, type: 3}
   choices: []
   nextNode: {fileID: 11400000, guid: 68ade68e40e45ce438ba9a6e6672735f, type: 2}
-  isLastInScene: 0
+  isChoice: 0
+  isLast: 0
   sceneToLoad: 
