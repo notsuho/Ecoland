@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c72c9706ba29a9d428084a4a0a43db7f, type: 3}
+  m_Name: ep1_initial_dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - 'As you can see the damage is quite extensive.
+
+
+    All the more reason to find
+    the fool behind this mess. If you give me the go-ahead I can expand the search
+    to the whole network.
+
+
+    <i>Sounds of splashing may be heard as Rivera runs
+    up to you and Parker looking mortified about the state of the sewer.</i>'
+  - "Oh This is terrible!!! This is doing irreversible damage to the water system!\n
+    \nAdvisor! We need to get to removing this toxic goop immediately. The waste
+    will contaminate the water system if we do not act immediatelly!"
+  - "You can\u2019t be serious Rivera? \n\nAdvisor, a large scale clean-up process
+    would get rid of almost all evidence that will help us find those responsible
+    for this travesty.\n\nThe damage is terrible, but the sanction of those fools
+    and prevention of another incident must take priority. "
+  - "No! Advisor please. Leaving this toxic goop here for an additional day will
+    undo some of our water project and hurt the river\u2019s ecosystem deeply. \n\nIt
+    is a major issue that the dumpers may get away but minimizing the harm must take
+    priority.\n\nParker can find them another way! "
+  needtoggle: 1
+  left: {fileID: -2676150590196756978, guid: e13562525b57a104fa733a032085af2e, type: 3}
+  right: {fileID: -991691007868473749, guid: 83a5c206ca590cc41aa4dad245cddfa5, type: 3}
+  choices: []
+  nextNode: {fileID: 11400000, guid: a7883c7a3cd9aae408f3e3b25b7210b3, type: 2}
+  isLastInScene: 0
+  sceneToLoad: 

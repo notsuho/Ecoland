@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c72c9706ba29a9d428084a4a0a43db7f, type: 3}
+  m_Name: Path_1_dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - "Parker: Excellent choice Director. We will hunt down the culprit and throw the
+    law book at them. Do not worry Rivera, we will work as fast as possible.\n\nRivera:
+    Aww man. I\u2019ll gather the cleanup crew and deploy them immediately as soon
+    as Parker gives the green light."
+  - "Allocated 25 workers to Chief Parker\u2019s search team."
+  needtoggle: 0
+  left: {fileID: -2676150590196756978, guid: e13562525b57a104fa733a032085af2e, type: 3}
+  right: {fileID: -991691007868473749, guid: 83a5c206ca590cc41aa4dad245cddfa5, type: 3}
+  choices: []
+  nextNode: {fileID: 11400000, guid: 1b8a1280672e0e54f9b0f115beddd2ec, type: 2}
+  isChoice: 0
+  sceneToLoad: episode_1_aftermath_1

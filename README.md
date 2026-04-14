@@ -1,4 +1,3 @@
 # Ecoland
 
-[Documentation Link](https://github.com/notsuho/Ecoland/wiki)
-
+Dcoumentaiton link: https://github.com/notsuho/Ecoland/wiki
