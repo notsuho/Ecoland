@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c72c9706ba29a9d428084a4a0a43db7f, type: 3}
+  m_Name: ep1_choice
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - Which course of action will you prioritize?
+  needtoggle: 0
+  left: {fileID: 0}
+  right: {fileID: 0}
+  choices:
+  - nextNode: {fileID: 11400000, guid: 9c0c90d795fc9db4d873ec267dc32fc0, type: 2}
+  - nextNode: {fileID: 11400000, guid: 1077d06944c957546bf05b63452eb508, type: 2}
+  nextNode: {fileID: 0}
+  isChoice: 1
+  sceneToLoad: 

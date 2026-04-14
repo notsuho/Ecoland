@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c72c9706ba29a9d428084a4a0a43db7f, type: 3}
+  m_Name: Path_1_aftermath_dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - "Now all that is left is to wait for the plans and investigation to come to effect.\n\nLet\u2019s
+    wait a while and see what they manage to do."
+  - <i>SOME TIME LATER...</i>
+  - "Advisor! The sewer situation has been resolved.\n\nSecurity chief Parker reported
+    in. They were able to establish how the crime was done and traced it back to
+    the local factory owner.\n\nHe\u2019s looking at hefty fines for that.\n\nShame
+    about the sewer itself though. The spill has affected the water quality of the
+    river and will continue to do so in the future."
+  - '<b>Disaster management ++:</b> The toxic waste culprit was caught and won''t
+    be an issue in the future.
+
+
+    <b>Satisfaction +:</b> The story of consequences
+    for major environmental crimes has improved citizens'' mood.
+
+
+    <b>Water resources
+    --:</b>  The water quality of the river was affected and some parts of it are
+    less usable.'
+  needtoggle: 0
+  left: {fileID: 2017643373582228962, guid: 7aaa2c07f7a6ee74b9826e98e4ff42d0, type: 3}
+  right: {fileID: 2017643373582228962, guid: 7aaa2c07f7a6ee74b9826e98e4ff42d0, type: 3}
+  choices: []
+  nextNode: {fileID: 0}
+  isChoice: 0
+  isLast: 1
+  sceneToLoad: 
