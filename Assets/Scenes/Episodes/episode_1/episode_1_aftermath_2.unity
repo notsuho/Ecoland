@@ -973,6 +973,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1506119633}
     m_Modifications:
+    - target: {fileID: 1601093301416806638, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
+      propertyPath: m_text
+      value: 'Episode 1 complete!
+
+        +500 ecopoints'
+      objectReference: {fileID: 0}
     - target: {fileID: 1870686194361876967, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_Name
       value: reward_button
@@ -983,18 +989,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1418683603}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1402047030}
+    - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
@@ -1002,8 +1020,20 @@ PrefabInstance:
       value: LoadScene
       objectReference: {fileID: 0}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateEcopoints
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: SceneController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ResourceUpdater, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -1011,6 +1041,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4692267893407498059, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
@@ -1662,6 +1696,11 @@ PrefabInstance:
 --- !u!224 &945197070 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 43634515198396753, guid: 7e539b24b54811548aa81822062dd8ca, type: 3}
+  m_PrefabInstance: {fileID: 945197069}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &945197071 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1573648994334357870, guid: 7e539b24b54811548aa81822062dd8ca, type: 3}
   m_PrefabInstance: {fileID: 945197069}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &982926660
@@ -2351,6 +2390,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220223272}
   m_CullTransparentMesh: 1
+--- !u!1 &1402047029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1402047031}
+  - component: {fileID: 1402047030}
+  m_Layer: 0
+  m_Name: ResourceUpdater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1402047030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402047029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c9af290e0b2be74ea17fa913d60fd62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResourceUpdater
+  money: {fileID: 362464437}
+  workers: {fileID: 1182119080}
+  ecopoints: {fileID: 945197071}
+--- !u!4 &1402047031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402047029}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 948.3725, y: 581.1879, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1418683601
 GameObject:
   m_ObjectHideFlags: 0
@@ -3817,3 +3903,4 @@ SceneRoots:
   - {fileID: 1418683602}
   - {fileID: 852430180}
   - {fileID: 796654946}
+  - {fileID: 1402047031}

@@ -1478,6 +1478,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1506119633}
     m_Modifications:
+    - target: {fileID: 1601093301416806638, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
+      propertyPath: m_text
+      value: 'Episode 1 complete!
+
+        +500 ecopoints'
+      objectReference: {fileID: 0}
     - target: {fileID: 1870686194361876967, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_Name
       value: reward_button
@@ -1488,7 +1494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -1496,7 +1502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1505,7 +1511,7 @@ PrefabInstance:
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 796654945}
+      objectReference: {fileID: 1080440978}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1520,7 +1526,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ToggleVisibility
+      value: UpdateEcopoints
       objectReference: {fileID: 0}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1528,7 +1534,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UIController, Assembly-CSharp
+      value: ResourceUpdater, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -1540,7 +1550,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3820501748204342643, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4692267893407498059, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
       propertyPath: m_Pivot.x
@@ -1637,6 +1647,53 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1870686194361876967, guid: bd71f72d9e9d4f144b93126fe4e52482, type: 3}
   m_PrefabInstance: {fileID: 1065159992}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1080440977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1080440979}
+  - component: {fileID: 1080440978}
+  m_Layer: 0
+  m_Name: ResourceUpdater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1080440978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080440977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c9af290e0b2be74ea17fa913d60fd62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResourceUpdater
+  money: {fileID: 1126816631}
+  workers: {fileID: 614045782}
+  ecopoints: {fileID: 2024877597}
+--- !u!4 &1080440979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080440977}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 948.3725, y: 581.1879, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1126816631
 GameObject:
   m_ObjectHideFlags: 0
@@ -3340,6 +3397,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 43634515198396753, guid: 7e539b24b54811548aa81822062dd8ca, type: 3}
   m_PrefabInstance: {fileID: 2024877595}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2024877597 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1573648994334357870, guid: 7e539b24b54811548aa81822062dd8ca, type: 3}
+  m_PrefabInstance: {fileID: 2024877595}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2078553847
 GameObject:
   m_ObjectHideFlags: 0
@@ -3865,3 +3927,4 @@ SceneRoots:
   - {fileID: 1418683602}
   - {fileID: 852430180}
   - {fileID: 796654946}
+  - {fileID: 1080440979}

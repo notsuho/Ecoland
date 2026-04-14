@@ -1425,9 +1425,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a65514d7bf602fd4fb3bd299b36e1203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneController
-  dg: {fileID: 1919775885}
-  rightPortrait: {fileID: 831826458}
-  leftPortrait: {fileID: 1528098261}
 --- !u!1 &1423825790
 GameObject:
   m_ObjectHideFlags: 0
@@ -2219,12 +2216,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueController
   sc: {fileID: 1418683603}
+  uc: {fileID: 0}
   dialogueBox: {fileID: 330479751}
   choiceBox: {fileID: 1007599315}
-  allDialogue:
-  - {fileID: 11400000, guid: 9c0c90d795fc9db4d873ec267dc32fc0, type: 2}
   current: {fileID: 11400000, guid: 9c0c90d795fc9db4d873ec267dc32fc0, type: 2}
-  tree: {fileID: 0}
 --- !u!4 &1919775886
 Transform:
   m_ObjectHideFlags: 0
