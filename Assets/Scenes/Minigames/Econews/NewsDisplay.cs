@@ -4,17 +4,24 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-/*Displaying news article in article view scene*/
+/*
+Used by EconewsArticleView1 scene.
+For displaying the news article chosen
+in EconewsListing scene.
+*/
 public class NewsDisplay : MonoBehaviour
 {
+    /*
+    Article text fields displayed in UI. Assigned in Unity editor
+    */
     public TextMeshProUGUI titleText;
     public TextMeshProUGUI dateText;
     public TextMeshProUGUI categoryText;
     public TextMeshProUGUI descriptionText;
     public Button openLinkButton;
-
     private string currentLink;
-    /*Getting clicked news article as scene starts*/
+
+    /*Displays chosen news article as scene starts*/
     void Start()
     {
         SetNews(SelectedNews.current);
@@ -34,11 +41,13 @@ public class NewsDisplay : MonoBehaviour
         openLinkButton.onClick.AddListener(OpenLink);
     }
 
+    /*Opens link when clicked*/
     void OpenLink()
     {
         Application.OpenURL(currentLink);
     }
 
+    /*Formats displayed date*/
     string FormatDate(string rawDate)
     {
         try

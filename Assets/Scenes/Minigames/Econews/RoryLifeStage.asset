@@ -13,11 +13,19 @@ MonoBehaviour:
   m_Name: RoryLifeStage
   m_EditorClassIdentifier: Assembly-CSharp::RoryLifeStage
   lifeStages:
+  - stageName: Newborn
+    rorySprite: {fileID: 0}
   - stageName: Baby
+    rorySprite: {fileID: 0}
+  - stageName: Toddler
     rorySprite: {fileID: 0}
   - stageName: Child
     rorySprite: {fileID: 0}
+  - stageName: Pre-teen
+    rorySprite: {fileID: 0}
   - stageName: Teen
+    rorySprite: {fileID: 0}
+  - stageName: Young adult
     rorySprite: {fileID: 0}
   - stageName: Adult
     rorySprite: {fileID: 0}

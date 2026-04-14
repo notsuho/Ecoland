@@ -2,47 +2,66 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+/*
+Used by MinigameMenu scene.
+Controls reward chest button.
+Updates UI progress bar image and text.
+Calls GrowthData.MilestoneHit() to reset progress and increase lifestage.
+*/
 public class GrowthManager : MonoBehaviour
 {
+    /*Variables visible and modifiable in
+    Unity editor*/
     [Header("UI Reference")]
-    public Image progressBarImage; 
+    public Image progressBarImage;
     public Button chestButton;
 
     [Header("Progress Bar Sprites (0 → 5)")]
     public Sprite[] progressBarSprites;
-
-    //public RoryLifeStage[] lifeStages;
+    /*image swapping not implemented yet*/
     //public Image roryImage;
     public RoryLifeStage roryLifeStageDatabase;
     public TMP_Text currentStage;
     public TMP_Text nextStage;
 
+    /*Adds listener to chestbutton.
+    Calls UpdateProgress()*/
     void Start()
     {
         chestButton.onClick.RemoveAllListeners();
-        chestButton.onClick.AddListener(OnChestClicked);
+        chestButton.onClick.AddListener(ChestClicked);
 
-        UpdateProgress(GrowthData.currentProgress);
+        UpdateProgress();
     }
 
-    void UpdateProgress(int completedNews)
+    /*
+    Updates UI elements.
+    Disables/enables chestButton if reward is available (boolean value)
+    Called at start and by ChestClicked()
+    */
+    void UpdateProgress()
     {
-        completedNews = Mathf.Clamp(completedNews, 0, progressBarSprites.Length - 1);
-        GrowthData.currentProgress = completedNews;
-        // Swap the sprite
         UpdateProgressBarUI();
         chestButton.interactable = GrowthData.RewardAvailable();
     }
 
-    void OnChestClicked()
+    /*Checks if reward is available.
+    Calls GrowthData.MilestoneHit() to reset progress
+    and increase lifeStage, with the max number of
+    lifestages based on database asset "roryLifeStageDatabase", 
+    modifiable in Unity*/
+    void ChestClicked()
     {
+        /*If reward is available/chest is clickable*/
         if (GrowthData.RewardAvailable())
         {
+            /*FOR THE FUTURE: a reward system can be implemented
+            and called here. Such as gaining ecopoints.*/
             Debug.Log("Player got a reward!");
-
+            /*Reset progress and grow Rory*/
             GrowthData.MilestoneHit(roryLifeStageDatabase.lifeStages.Count);
-
-            UpdateProgress(GrowthData.currentProgress);
+            /*Update UI and chest availability*/
+            UpdateProgress();
         }
         else
         {
@@ -50,25 +69,27 @@ public class GrowthManager : MonoBehaviour
         }
     }
 
+    /*Gets the correct progress bar sprite based on GrowthData.
+    Array of sprites defined in unity editor.
+    Updates displayed lifestage names at the ends
+    of the progress bar.
+    Lifestages defined in Unity editor*/
     void UpdateProgressBarUI()
     {
         progressBarImage.sprite = progressBarSprites[GrowthData.currentProgress];
         int j = GrowthData.roryLifestage;
-        // current stage
+        //sets text for current stage
         var current = roryLifeStageDatabase.lifeStages[j];
         currentStage.text = current.stageName;
 
-        // next stage (check if we are at the last stage)
-        if (j < roryLifeStageDatabase.lifeStages.Count-1)
+        //sets text for next stage (checks if we are at the last stage)
+        if (j < roryLifeStageDatabase.lifeStages.Count - 1)
+        {
             nextStage.text = roryLifeStageDatabase.lifeStages[j + 1].stageName;
+        }
         else
+        {
             nextStage.text = "Fully Grown";
+        }
     }
-
-/*    public int testValue;
-
-    void Update()
-    {
-        UpdateProgress(testValue);
-    }*/
 }
