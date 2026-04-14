@@ -24,9 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/BackstoryStartScreen.unity
     guid: 57907dea4339c5948b9a901a0363db97
   - enabled: 1
-    path: Assets/Scenes/Minigames/Econews/EconewsArticleViewFAILED.unity
-    guid: 5c1af193caf51c646b3b518738c2f17d
-  - enabled: 1
     path: Assets/Scenes/Minigames/Econews/EconewsListing.unity
     guid: 73fd37437876450488b7c0b6771e9e4a
   - enabled: 1
@@ -39,35 +36,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Minigames/Econews/MinigameMenu.unity
     guid: c0347fb2994cc70439972902689c9eee
   - enabled: 1
-    path: Assets/Scenes/Minigames/Econews/EconewsEndScreen.unity
-    guid: fb4c2f8a275480c41aca20cd1adbdf4c
-  - enabled: 1
-    path: Assets/Scenes/Minigames/Econews/EconewsFeedback.unity
-    guid: 53ba58f9f2ad4544f9f27794bdb18ff1
-  - enabled: 1
-    path: Assets/Scenes/Minigames/Econews/EconewsQuitOverlay.unity
-    guid: 868ba349dcc3b224ba1d24d393829b34
-  - enabled: 1
-    path: Assets/Scenes/Minigames/Econews/EconewsReady.unity
-    guid: cd739f43e7d05a048a7c5ad35cca08e7
-  - enabled: 1
     path: Assets/Scenes/Minigames/Econews/EconewsStatsMore.unity
     guid: 5adbd1dfbd6aabc4eaa0f8f6af53fb0c
   - enabled: 1
-    path: Assets/Scenes/Minigames/Econews/AIStatsInfo.unity
-    guid: 7567ba28db127de438f65c1cf70cfc39
-  - enabled: 1
-    path: Assets/Scenes/Minigames/Econews/EconewsArticleView.unity
-    guid: 49d203cb0b97d25449a4d02977d5fbe4
-  - enabled: 1
-    path: Assets/Scenes/Minigames/Econews/EconewsCanvasTemplate.unity
-    guid: c3e5cfbf197183d4b84df32a2d8efc5e
-  - enabled: 1
-    path: Assets/Scenes/Minigames/Econews/EconewsCanvasTemplate1.unity
-    guid: e8bbc1e02f3ca3b4d94a983b01243e79
-  - enabled: 1
     path: Assets/Scenes/Minigames/Econews/EconewsFeedback 1.unity
     guid: 03de93f7e054805469db5b7c893dc5f1
+  - enabled: 1
     path: Assets/Scenes/Episodes/episode_1/episode_1_scene.unity
     guid: 45a3e3ebb017e694083ffa6f8878b001
   - enabled: 1
@@ -85,6 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Episodes/episode_1/episode_1_aftermath_2.unity
     guid: ef28619af10d0f34e9f0a913d0eb4ab7
+  - enabled: 1
     path: Assets/Scenes/Game Home Menu/HomeMenuScene.unity
     guid: eebe47a11bd0b7744a953f7df3abeffc
   - enabled: 1
