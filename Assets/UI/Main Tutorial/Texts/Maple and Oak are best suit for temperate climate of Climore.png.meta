@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: bc027727181b26c479576b2764824dff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 983724586259012062
+    second: Maple and Oak are best suit for temperate climate of Climore_0
+  - first:
+      213: 3171118301597010485
+    second: Maple and Oak are best suit for temperate climate of Climore_1
+  - first:
+      213: 3487305522479829262
+    second: Maple and Oak are best suit for temperate climate of Climore_2
+  - first:
+      213: -110740272809483173
+    second: Maple and Oak are best suit for temperate climate of Climore_3
+  - first:
+      213: 1234413912633897757
+    second: Maple and Oak are best suit for temperate climate of Climore_4
+  - first:
+      213: -7734909227772891394
+    second: Maple and Oak are best suit for temperate climate of Climore_5
+  - first:
+      213: 2500387800828990479
+    second: Maple and Oak are best suit for temperate climate of Climore_6
+  - first:
+      213: -3459026664472882325
+    second: Maple and Oak are best suit for temperate climate of Climore_7
+  - first:
+      213: 9060091855894630016
+    second: Maple and Oak are best suit for temperate climate of Climore_8
+  - first:
+      213: -8461453804724770522
+    second: Maple and Oak are best suit for temperate climate of Climore_9
+  - first:
+      213: 3165743447228305151
+    second: Maple and Oak are best suit for temperate climate of Climore_10
+  - first:
+      213: 5717536310751579261
+    second: Maple and Oak are best suit for temperate climate of Climore_11
+  - first:
+      213: -7589876765801374441
+    second: Maple and Oak are best suit for temperate climate of Climore_12
+  - first:
+      213: 7106139633796184553
+    second: Maple and Oak are best suit for temperate climate of Climore_13
+  - first:
+      213: 8295015516035853171
+    second: Maple and Oak are best suit for temperate climate of Climore_14
+  - first:
+      213: -3510403917957994199
+    second: Maple and Oak are best suit for temperate climate of Climore_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Maple and Oak are best suit for temperate climate of Climore_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 61
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed959c89c44e6ad00800000000000000
+      internalID: 983724586259012062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maple and Oak are best suit for temperate climate of Climore_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 28
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a0e634b43120c20800000000000000
+      internalID: 3171118301597010485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maple and Oak are best suit for temperate climate of Climore_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 28
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e011baa65e5656030800000000000000
+      internalID: 3487305522479829262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maple and Oak are best suit for temperate climate of Climore_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 28
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b546cd00f42967ef0800000000000000
+      internalID: -110740272809483173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maple and Oak are best suit for temperate climate of Climore_4
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 28
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13f750d9e4812110800000000000000
+      internalID: 1234413912633897757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maple and Oak are best suit for temperate climate of Climore_5
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 28
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efea4b4e90518a490800000000000000
+      internalID: -7734909227772891394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maple and Oak are best suit for temperate climate of Climore_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 24
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04d12d057923b220800000000000000
+      internalID: 2500387800828990479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maple and Oak are best suit for temperate climate of Climore_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 102
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b635d7b43911fffc0800000000000000
+      internalID: -3459026664472882325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maple and Oak are best suit for temperate climate of Climore_8
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 3
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e420f5a89ebbd70800000000000000
+      internalID: 9060091855894630016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maple and Oak are best suit for temperate climate of Climore_9
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 3
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629a0066890e29a80800000000000000
+      internalID: -8461453804724770522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maple and Oak are best suit for temperate climate of Climore_10
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 3
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe401674eafeeb20800000000000000
+      internalID: 3165743447228305151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maple and Oak are best suit for temperate climate of Climore_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 3
+        width: 51
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cceb85bf4c85f40800000000000000
+      internalID: 5717536310751579261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maple and Oak are best suit for temperate climate of Climore_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 0
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d1b6d5b475ba690800000000000000
+      internalID: -7589876765801374441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maple and Oak are best suit for temperate climate of Climore_13
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 3
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9feb4d8541e9260800000000000000
+      internalID: 7106139633796184553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maple and Oak are best suit for temperate climate of Climore_14
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 3
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37baba7b9a0dd1370800000000000000
+      internalID: 8295015516035853171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maple and Oak are best suit for temperate climate of Climore_15
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 3
+        width: 53
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92969fb4c3a884fc0800000000000000
+      internalID: -3510403917957994199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Maple and Oak are best suit for temperate climate of Climore_0: 983724586259012062
+      Maple and Oak are best suit for temperate climate of Climore_1: 3171118301597010485
+      Maple and Oak are best suit for temperate climate of Climore_10: 3165743447228305151
+      Maple and Oak are best suit for temperate climate of Climore_11: 5717536310751579261
+      Maple and Oak are best suit for temperate climate of Climore_12: -7589876765801374441
+      Maple and Oak are best suit for temperate climate of Climore_13: 7106139633796184553
+      Maple and Oak are best suit for temperate climate of Climore_14: 8295015516035853171
+      Maple and Oak are best suit for temperate climate of Climore_15: -3510403917957994199
+      Maple and Oak are best suit for temperate climate of Climore_2: 3487305522479829262
+      Maple and Oak are best suit for temperate climate of Climore_3: -110740272809483173
+      Maple and Oak are best suit for temperate climate of Climore_4: 1234413912633897757
+      Maple and Oak are best suit for temperate climate of Climore_5: -7734909227772891394
+      Maple and Oak are best suit for temperate climate of Climore_6: 2500387800828990479
+      Maple and Oak are best suit for temperate climate of Climore_7: -3459026664472882325
+      Maple and Oak are best suit for temperate climate of Climore_8: 9060091855894630016
+      Maple and Oak are best suit for temperate climate of Climore_9: -8461453804724770522
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

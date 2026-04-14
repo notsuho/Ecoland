@@ -47,6 +47,38 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Episodes/episode_1/episode_1_aftermath_2.unity
     guid: ef28619af10d0f34e9f0a913d0eb4ab7
+    path: Assets/Scenes/Game Home Menu/HomeMenuScene.unity
+    guid: eebe47a11bd0b7744a953f7df3abeffc
+  - enabled: 1
+    path: Assets/Scenes/Game Home Menu/TimeShiftWaterDamage/TimeShiftWaterDamage.unity
+    guid: 9fc947796e7869a41aead155be9f1a96
+  - enabled: 1
+    path: Assets/Scenes/Game Home Menu/TimeShiftWaterDamage/HourGlassRotation01WaterDamage.unity
+    guid: 6510201b429fb2c4c9973dc9b9b5e5a9
+  - enabled: 1
+    path: Assets/Scenes/Game Home Menu/TimeShiftWaterDamage/HourGlassRotation02WaterDamage.unity
+    guid: e7ced81d19cc3b343a546f83634b36fa
+  - enabled: 1
+    path: Assets/Scenes/Game Home Menu/TimeShiftWaterDamage/HourGlassRotation03WaterDamage.unity
+    guid: 896738d9d1976574f8f39695080cb0b0
+  - enabled: 1
+    path: Assets/Scenes/Game Home Menu/TimeShiftWaterCleaning/TimeShiftWaterCleaning.unity
+    guid: 25b0343ded9fe4c4895c763e39eec8b4
+  - enabled: 1
+    path: Assets/Scenes/Game Home Menu/TimeShiftWaterCleaning/HourGlassRotation01WaterCleaning.unity
+    guid: 99e819c03c132744baf1a65ad36ae8fe
+  - enabled: 1
+    path: Assets/Scenes/Game Home Menu/TimeShiftWaterCleaning/HourGlassRotation02WaterCleaning.unity
+    guid: 880c24fbb602cb84583817e3a7408381
+  - enabled: 1
+    path: Assets/Scenes/Game Home Menu/TimeShiftWaterCleaning/HourGlassRotation03WaterCleaning.unity
+    guid: b26fba1c9929e724c97e17c74c300abc
+  - enabled: 1
+    path: Assets/Scenes/Game Home Menu/TimeShiftWaterCleaning/TimeShiftRewardsWaterCleaning.unity
+    guid: 9eb85796c9673094bbd2de305399205d
+  - enabled: 1
+    path: Assets/Scenes/Game Home Menu/TimeShiftWaterDamage/TimeShiftRewardsWaterdamage.unity
+    guid: 30670953765a3b34b8fefa3d7840bceb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
