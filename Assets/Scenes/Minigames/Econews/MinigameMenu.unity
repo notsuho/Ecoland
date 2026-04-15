@@ -632,7 +632,6 @@ MonoBehaviour:
   roryLifeStageDatabase: {fileID: 11400000, guid: 23d25adb575b0e44c898eff5fa6c6326, type: 2}
   currentStage: {fileID: 1302160726}
   nextStage: {fileID: 1893588550}
-  testValue: 0
 --- !u!4 &296098599
 Transform:
   m_ObjectHideFlags: 0
@@ -4594,7 +4593,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1952264453}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1703569847}
+        m_TargetAssemblyTypeName: SceneNavigator, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: HomeMenuScene
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1952264453
 MonoBehaviour:
   m_ObjectHideFlags: 0
