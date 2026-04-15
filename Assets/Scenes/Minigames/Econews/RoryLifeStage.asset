@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a97dccccf2199a743b0e98c882a24aef, type: 3}
+  m_Name: RoryLifeStage
+  m_EditorClassIdentifier: Assembly-CSharp::RoryLifeStage
+  lifeStages:
+  - stageName: Newborn
+    rorySprite: {fileID: 0}
+  - stageName: Baby
+    rorySprite: {fileID: 0}
+  - stageName: Toddler
+    rorySprite: {fileID: 0}
+  - stageName: Child
+    rorySprite: {fileID: 0}
+  - stageName: Pre-teen
+    rorySprite: {fileID: 0}
+  - stageName: Teen
+    rorySprite: {fileID: 0}
+  - stageName: Young adult
+    rorySprite: {fileID: 0}
+  - stageName: Adult
+    rorySprite: {fileID: 0}
+  - stageName: Fully Grown
+    rorySprite: {fileID: 0}

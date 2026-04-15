@@ -4,6 +4,11 @@ using System.Xml;
 using UnityEngine;
 using UnityEngine.Networking;
 
+/*
+Used by EconewsListing scene.
+Uses RSS to fetch news articles.
+Reads received XML data and saves news items.
+*/
 public class RssFetcher : MonoBehaviour
 {
     //RSS url used to fetch wanted news
@@ -15,7 +20,6 @@ public class RssFetcher : MonoBehaviour
         StartCoroutine(GetRSS());
     }
 
-    
     /*Fetching news through RSS*/
     IEnumerator GetRSS()
     {
@@ -29,7 +33,7 @@ public class RssFetcher : MonoBehaviour
         }
         else
         {
-            //calling method after succesful request
+            //Calls method after succesful request
             ParseRSS(request.downloadHandler.text);
         }
     }

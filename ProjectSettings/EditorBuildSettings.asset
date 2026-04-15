@@ -24,11 +24,23 @@ EditorBuildSettings:
     path: Assets/Scenes/BackstoryStartScreen.unity
     guid: 57907dea4339c5948b9a901a0363db97
   - enabled: 1
-    path: Assets/Scenes/Minigames/Econews/EconewsArticleView.unity
-    guid: 5c1af193caf51c646b3b518738c2f17d
-  - enabled: 1
     path: Assets/Scenes/Minigames/Econews/EconewsListing.unity
     guid: 73fd37437876450488b7c0b6771e9e4a
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Econews/EconewsArticleView1.unity
+    guid: e3ca30fdb8336034c8d0816cf8b8a16b
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Econews/EconewsEndScreen1.unity
+    guid: 5ca2ddbe6e1b4744ca2032f045406b29
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Econews/MinigameMenu.unity
+    guid: c0347fb2994cc70439972902689c9eee
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Econews/EconewsStatsMore.unity
+    guid: 5adbd1dfbd6aabc4eaa0f8f6af53fb0c
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Econews/EconewsFeedback 1.unity
+    guid: 03de93f7e054805469db5b7c893dc5f1
   - enabled: 1
     path: Assets/Scenes/Episodes/episode_1/episode_1_scene.unity
     guid: 45a3e3ebb017e694083ffa6f8878b001
@@ -47,6 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Episodes/episode_1/episode_1_aftermath_2.unity
     guid: ef28619af10d0f34e9f0a913d0eb4ab7
+  - enabled: 1
     path: Assets/Scenes/Game Home Menu/HomeMenuScene.unity
     guid: eebe47a11bd0b7744a953f7df3abeffc
   - enabled: 1

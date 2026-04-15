@@ -4,11 +4,18 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
+/*
+Used by EconewsListing scene.
+Generates buttons based on listed articles.
+On button click, saves chosen article to static
+SelectedNews NewsItem, 
+and navigates to EconewsArticleView1 scene.
+*/
 public class NewsListing : MonoBehaviour
 {
     //ScrollView Content
     public Transform contentParent;
-    // Button prefab
+    //Button prefab
     public GameObject buttonPrefab;
 
     /*Displays news in UI as a button list*/
@@ -24,23 +31,20 @@ public class NewsListing : MonoBehaviour
         foreach (NewsItem news in newsList)
         {
             GameObject buttonObject = Instantiate(buttonPrefab, contentParent);
-
-            //Set title text
+            //Sets title text
             TextMeshProUGUI text = buttonObject.GetComponentInChildren<TextMeshProUGUI>();
             text.text = news.title;
-
-            //Add click listener
-            Button button = buttonObject.GetComponent<Button>();
-            button.onClick.AddListener(() => OnNewsClicked(news));
+            //Adds click listener
+            Button newsButton = buttonObject.GetComponent<Button>();
+            newsButton.onClick.AddListener(() => NewsClicked(news));
         }
     }
 
-    /*saves clicked article and loads article scene*/
-    void OnNewsClicked(NewsItem news)
+    /*Saves clicked article and loads article scene*/
+    void NewsClicked(NewsItem news)
     {
         SelectedNews.current = news;
-        //Load article scene with chosen article
         //NAME MUST MATCH EXACT SCENE NAME
-        SceneManager.LoadScene("EconewsArticleView");
+        SceneManager.LoadScene("EconewsArticleView1");
     }
 }
