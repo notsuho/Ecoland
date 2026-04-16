@@ -5,24 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LoadingScreen.unity
     guid: 7dad79d0209ffa94293d746034795389
   - enabled: 1
     path: Assets/Scenes/WelcomeScreen.unity
     guid: d5a1f7dab5f612c40a8622450463515a
   - enabled: 1
-    path: Assets/Scenes/Intro1Screen.unity
-    guid: b152705e772dd6048be860c88a7b93e0
+    path: Assets/Scenes/Intro Screen 1.unity
+    guid: 78357900fc1844245b39c94924e03b66
   - enabled: 1
-    path: Assets/Scenes/Intro2Screen.unity
-    guid: 5af6fe0a6367d3f4b837d6b0a4655ab9
+    path: Assets/Scenes/Intro Screen 2.unity
+    guid: 39f8ce8dea1041f4f90abc06a1f04210
   - enabled: 1
-    path: Assets/Scenes/PlayerInfoScreen.unity
-    guid: a42922f3787487e42b4441a2b436043a
-  - enabled: 1
-    path: Assets/Scenes/BackstoryStartScreen.unity
-    guid: 57907dea4339c5948b9a901a0363db97
+    path: Assets/Scenes/Player Info Screen.unity
+    guid: 52217d717bbdd7d4b97e0d16f890102d
   - enabled: 1
     path: Assets/Scenes/Minigames/Econews/EconewsListing.unity
     guid: 73fd37437876450488b7c0b6771e9e4a
