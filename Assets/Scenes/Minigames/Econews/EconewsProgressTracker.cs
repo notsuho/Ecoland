@@ -30,6 +30,7 @@ public class EconewsProgressTracker : MonoBehaviour
     {
         GrowthData.currentProgress++;
         UpdateProgressBarUI();
+        PlayerResources.Instance.EditEcopoints(250); 
         //UpdateRoryImageUI();
         replayButton.onClick.RemoveAllListeners();
         replayButton.onClick.AddListener(OnReplayClicked);

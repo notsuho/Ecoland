@@ -15,6 +15,7 @@ public class GrowthManager : MonoBehaviour
     [Header("UI Reference")]
     public Image progressBarImage;
     public Button chestButton;
+    public Button startButton;
 
     [Header("Progress Bar Sprites (0 → 5)")]
     public Sprite[] progressBarSprites;
@@ -36,13 +37,17 @@ public class GrowthManager : MonoBehaviour
 
     /*
     Updates UI elements.
-    Disables/enables chestButton if reward is available (boolean value)
+    Disables/enables chest and start buttons based on
+    reward availability (boolean value)
     Called at start and by ChestClicked()
     */
     void UpdateProgress()
     {
         UpdateProgressBarUI();
+        /*Enables chestButton when reward is available*/
         chestButton.interactable = GrowthData.RewardAvailable();
+        /*Disables startButton when reward is available*/
+        startButton.interactable = !GrowthData.RewardAvailable();
     }
 
     /*Checks if reward is available.
@@ -55,9 +60,10 @@ public class GrowthManager : MonoBehaviour
         /*If reward is available/chest is clickable*/
         if (GrowthData.RewardAvailable())
         {
-            /*FOR THE FUTURE: a reward system can be implemented
+            /*A reward system can be implemented
             and called here. Such as gaining ecopoints.*/
-            Debug.Log("Player got a reward!");
+            PlayerResources.Instance.EditEcopoints(250); 
+            Debug.Log("Player got 250 ecopoints!");
             /*Reset progress and grow Rory*/
             GrowthData.MilestoneHit(roryLifeStageDatabase.lifeStages.Count);
             /*Update UI and chest availability*/

@@ -622,6 +622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GrowthManager
   progressBarImage: {fileID: 1842996955}
   chestButton: {fileID: 1354106571}
+  startButton: {fileID: 1051411717}
   progressBarSprites:
   - {fileID: 8296321661011551385, guid: a9fcd4a10e6d23c40ae37df04807ba17, type: 3}
   - {fileID: 8065333353092106497, guid: e807e263048384440b90b8edc2f5ba6a, type: 3}
