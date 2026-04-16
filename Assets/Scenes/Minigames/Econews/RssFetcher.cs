@@ -12,7 +12,11 @@ Reads received XML data and saves news items.
 public class RssFetcher : MonoBehaviour
 {
     //RSS url used to fetch wanted news
-    private string url = "https://yle.fi/rss/t/18-215534/en";
+    //Note: if you see a corsproxy.io link in the url string below, remove it before future use
+    //I am putting it there just so the demo build deplo will work, since webgl CORS is kind of a pain
+    //But it is a pain for a good reason which is security! So yeah, this is hacky.
+    //Even more reason to remove if you are only doing a normal build via Unity that spits out an .exe, no CORS problems there
+    private string url = "https://corsproxy.io/?url=https://yle.fi/rss/t/18-215534/en";
     public NewsListing newsListing;
 
     void Start()
