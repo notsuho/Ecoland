@@ -16,7 +16,7 @@ public class RssFetcher : MonoBehaviour
     //I am putting it there just so the demo build deplo will work, since webgl CORS is kind of a pain
     //But it is a pain for a good reason which is security! So yeah, this is hacky.
     //Even more reason to remove if you are only doing a normal build via Unity that spits out an .exe, no CORS problems there
-    private string url = "https://corsproxy.io/?url=https://yle.fi/rss/t/18-215534/en";
+    private string url = "https://yle.fi/rss/t/18-215534/en";
     public NewsListing newsListing;
 
     void Start()
