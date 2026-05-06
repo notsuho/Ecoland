@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: e57ee8ff9b46ff14a86e46d1ceeced13
+guid: 19a34dc0f274b3f4b8449fc8dfcd587a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5880910179683498061
-    second: Governor Intro 1_0
+      213: -1600250096484102957
+    second: Welcome to the journey where Your Choices Shape a Greener Tomorrow!_0
+  - first:
+      213: -5217926360218943380
+    second: Welcome to the journey where Your Choices Shape a Greener Tomorrow!_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Governor Intro 1_0
+      name: Welcome to the journey where Your Choices Shape a Greener Tomorrow!_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 956
-        height: 440
+        width: 470
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b78cf7995fc26ea0800000000000000
-      internalID: -5880910179683498061
+      spriteID: 3dcc7470405cac9e0800000000000000
+      internalID: -1600250096484102957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Welcome to the journey where Your Choices Shape a Greener Tomorrow!_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 24
+        width: 240
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60c0030f933697b0800000000000000
+      internalID: -5217926360218943380
       vertices: []
       indices: 
       edges: []
@@ -138,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Governor Intro 1_0: -5880910179683498061
+      Welcome to the journey where Your Choices Shape a Greener Tomorrow!_0: -1600250096484102957
+      Welcome to the journey where Your Choices Shape a Greener Tomorrow!_1: -5217926360218943380
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
